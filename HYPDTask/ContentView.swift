@@ -31,7 +31,7 @@ struct ContentView: View {
                     
                     RoundedRectangle(cornerRadius: 20)
                         .frame(width: 1, height: 80, alignment: .center)
-                        .foregroundColor(.gray)
+                        .foregroundColor(Color.init(hex: "#0000001A"))
                     
                     VStack(alignment: .center, spacing: 10) {
                         
