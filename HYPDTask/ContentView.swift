@@ -29,7 +29,7 @@ struct ContentView: View {
                             .foregroundColor(Color.init(hex: "#585858"))
                     }
                     
-                    RoundedRectangle(cornerRadius: 20)
+                    Divider()
                         .frame(width: 1, height: 80, alignment: .center)
                         .foregroundColor(Color.init(hex: "#0000001A"))
                     
